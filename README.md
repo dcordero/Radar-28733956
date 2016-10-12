@@ -5,10 +5,10 @@ Project created to report bug on AVPlayerViewController
 # Description
 When a very long description is provided on AVMetadataCommonIdentifierDescription, AVPlayerViewController allows expanding the description in a separated ViewController. 
 
-This modal ViewController is presented modally and when is presented the player on the background is paused.
+This ViewController is presented modally and, when it is presented, the AVPlayer on the background is paused.
 
 # Expected 
-AVPlayerViewController continues playing on the background while the full description is presented modally.
+AVPlayer continues playing on the background while the full description is presented modally.
 
 # Steps
 
