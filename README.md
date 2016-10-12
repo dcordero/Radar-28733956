@@ -8,6 +8,8 @@ When a very long description is provided on AVMetadataCommonIdentifierDescriptio
 
 This ViewController is presented modally and, when it is presented, the AVPlayer on the background is paused for no reason.
 
+It happens not only for event streams but also for hls live streams, which might results in a problem when trying to resume the stream from a expired timeshift window.
+
 # Expected 
 AVPlayer continues playing on the background while the full description is presented modally.
 
