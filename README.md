@@ -5,7 +5,7 @@ Project created to report bug on AVPlayerViewController
 
 # Update
 
-This issue was resolve in tvOS 11
+This issue was resolved in tvOS 11
 
 # Description
 When a very long description is provided on AVMetadataCommonIdentifierDescription, AVPlayerViewController allows expanding the description in a separated ViewController. 
